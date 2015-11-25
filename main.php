@@ -1,7 +1,10 @@
 <?php require_once("header.php"); ?>
-
-<!-- <--- Menuu -->
-<nav class="navbar navbar-default">
+    
+	<!-- ###################### -->
+	<!-- ####### MENÜÜ ######## -->
+	<!-- ###################### -->
+	
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -19,13 +22,53 @@
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
         <li><a href="#">Link</a></li>
-
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
+	
+	
+	<br><br><br><br>
+	
+<!-- ###################### -->
+<!-- ####### SISU ######## -->
+<!-- ###################### -->	
 
+<div class="container">
 
-    <h1>Hello, world!</h1>
+	<div class="row">
+			<div class="col-sm-6 col-md-push-6 ">
+				<ul class="nav nav-tabs">
+				  <li role="presentation" class="active"><a href="#">Home</a></li>
+				  <li role="presentation"><a href="#">Profile</a></li>
+				  <li role="presentation"><a href="#">Messages</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="col-sm-6 col-md-pull-6 ">
+			<div class="jumbotron">
+				<div class="container">
+				  <h1>Hello, world!</h1>
+				  <p>...</p>
+				  <p><a class="btn btn-success pull-right" href="#" role="button">Learn more</a></p>
+				</div>
+			</div>
+		</div>
+		
 
+		
+			
+	</div>
 
-
-    
+</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
 <?php require_once("footer.php"); ?>
